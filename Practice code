@@ -1,0 +1,28 @@
+int main()
+{
+    char modelNumber[50];
+    float voltage, current, temperature, power;
+
+    printf("Enter model number: ");
+    scanf("%s", modelNumber);
+
+    printf("Enter supply voltage (V): ");
+    scanf("%f", &voltage);
+
+    printf("Enter current (A): ");
+    scanf("%f", &current);
+
+    printf("Enter temperature (C): ");
+    scanf("%f", &temperature);
+
+    power = voltage * current;
+
+    printf("\nDevice Model: %s\n", modelNumber);
+    printf("Supply Voltage: %.2f V\n", voltage);
+    printf("Current Consumption: %.2f A\n", current);
+    printf("Operating Temperature: %.2f C\n", temperature);
+    printf("Power Consumption: %.2f W\n", power);
+
+    return 0;
+}
+
