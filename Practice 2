@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    printf("Embedded Device Boot\n");
+    printf("Firmware Version: 1.2\n");
+    printf("Status: READY\n");
+    return 0;
+}
